@@ -1,0 +1,22 @@
+{
+  "name": "once-archive-thrift-store",
+  "version": "2.0.0",
+  "description": "ONCE — 1-of-1 Curated Thrift & Archive Streetwear Store with REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "thrift",
+    "vintage",
+    "1-of-1",
+    "archive",
+    "ecommerce"
+  ],
+  "author": "ONCE Team",
+  "license": "ISC"
+}

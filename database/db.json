@@ -1,0 +1,273 @@
+{
+  "settings": {
+    "shippingFee": 50,
+    "freeShippingMin": 1500,
+    "promptpayNumber": "089-987-6543",
+    "promptpayName": "ONCE ARCHIVE & VINTAGE"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@shop.com",
+      "password": "admin123",
+      "role": "admin",
+      "address": "",
+      "phone": "080-000-0000"
+    },
+    {
+      "id": 2,
+      "name": "ลูกค้าตัวอย่าง",
+      "email": "user@shop.com",
+      "password": "1234",
+      "role": "customer",
+      "address": "99 ถ.สุขุมวิท กรุงเทพฯ 10110",
+      "phone": "081-234-5678"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Vintage Carhartt Detroit Work Jacket",
+      "brand": "Carhartt",
+      "category": "แจ็คเก็ต",
+      "size": "L",
+      "cond": "9/10 Vintage",
+      "price": 1890,
+      "sold": false,
+      "stock": 1,
+      "color": "#8a5a2b",
+      "image": "",
+      "images": [],
+      "measurements": {
+        "chest": "48\"",
+        "length": "26.5\"",
+        "shoulder": "20\"",
+        "sleeve": "25\""
+      },
+      "defects": "รอยเฟดธรรมชาติบริเวณคอปกและข้อศอก ไม่มีรอยขาด ซิปรูดลื่นปกติ",
+      "createdAt": "2026-10-15T07:27:34.964Z"
+    },
+    {
+      "id": 2,
+      "title": "Nike Center Mini Swoosh Tee 90s",
+      "brand": "Nike",
+      "category": "เสื้อยืด",
+      "size": "M",
+      "cond": "9.5/10 Pristine",
+      "price": 690,
+      "sold": false,
+      "stock": 1,
+      "color": "#2b4a8a",
+      "image": "",
+      "images": [],
+      "measurements": {
+        "chest": "40\"",
+        "length": "28\"",
+        "shoulder": "18\"",
+        "sleeve": "8\""
+      },
+      "defects": "สภาพสมบูรณ์มาก สกรีนมินิสวูชแน่น ไม่มีตำหนิ ตะเข็บเดี่ยว",
+      "createdAt": "2026-10-16T07:27:34.964Z"
+    },
+    {
+      "id": 3,
+      "title": "Champion Reverse Weave Heavy Hoodie",
+      "brand": "Champion",
+      "category": "ฮู้ดดี้",
+      "size": "XL",
+      "cond": "8.5/10 Archive",
+      "price": 1350,
+      "sold": false,
+      "stock": 1,
+      "color": "#525252",
+      "image": "",
+      "images": [],
+      "measurements": {
+        "chest": "50\"",
+        "length": "29\"",
+        "shoulder": "21\"",
+        "sleeve": "26\""
+      },
+      "defects": "เฟดคลาสสิก ผ้าหนาไม่มีย้วย เชือกฮู้ดเดิมครบ",
+      "createdAt": "2026-10-17T07:27:34.964Z"
+    },
+    {
+      "id": 4,
+      "title": "Stüssy 8-Ball Fade Tee 00s",
+      "brand": "Stüssy",
+      "category": "เสื้อยืด",
+      "size": "L",
+      "cond": "8/10 Vintage Faded",
+      "price": 850,
+      "sold": false,
+      "stock": 1,
+      "color": "#1a1a1a",
+      "image": "",
+      "images": [],
+      "measurements": {
+        "chest": "44\"",
+        "length": "28.5\"",
+        "shoulder": "19.5\"",
+        "sleeve": "8.5\""
+      },
+      "defects": "ลายสกรีนแครกตามกาลเวลา ผ้าเฟดดำเทาแบบวินเทจแท้",
+      "createdAt": "2026-10-17T07:27:34.964Z"
+    },
+    {
+      "id": 5,
+      "title": "Levi's Type 3 Washed Denim Jacket",
+      "brand": "Levi's",
+      "category": "แจ็คเก็ต",
+      "size": "M",
+      "cond": "9/10 Washed Indigo",
+      "price": 1590,
+      "sold": false,
+      "stock": 1,
+      "color": "#3d6fa8",
+      "image": "",
+      "images": [],
+      "measurements": {
+        "chest": "42\"",
+        "length": "24.5\"",
+        "shoulder": "18\"",
+        "sleeve": "24\""
+      },
+      "defects": "สีบลูยีนส์ฟอกสวย ป้ายส้มครบ ไม่มีรอยเปื้อนหนัก",
+      "createdAt": "2026-10-18T07:27:34.964Z"
+    },
+    {
+      "id": 6,
+      "title": "Adidas Trefoil 90s Track Jacket",
+      "brand": "Adidas",
+      "category": "แจ็คเก็ต",
+      "size": "S",
+      "cond": "9/10 Archive Classic",
+      "price": 1090,
+      "sold": false,
+      "stock": 1,
+      "color": "#962b2b",
+      "image": "",
+      "images": [],
+      "measurements": {
+        "chest": "38\"",
+        "length": "25\"",
+        "shoulder": "17\"",
+        "sleeve": "23.5\""
+      },
+      "defects": "แถบสามเส้นขาวสะอาด โลโก้ปักคมชัด ซิปเดิมสภาพดี",
+      "createdAt": "2026-10-18T07:27:34.964Z"
+    },
+    {
+      "id": 7,
+      "title": "Harley Davidson 3D Emblem Eagle Tee",
+      "brand": "Harley Davidson",
+      "category": "เสื้อยืด",
+      "size": "L",
+      "cond": "8.5/10 Single Stitch",
+      "price": 2200,
+      "sold": false,
+      "stock": 1,
+      "color": "#262626",
+      "image": "",
+      "images": [],
+      "measurements": {
+        "chest": "44\"",
+        "length": "29\"",
+        "shoulder": "20\"",
+        "sleeve": "8.5\""
+      },
+      "defects": "สกรีนหน้า-หลัง 3D Emblem แท้ปี 1992 ชายเสื้อและแขนตะเข็บเดี่ยว",
+      "createdAt": "2026-10-19T07:27:34.964Z"
+    },
+    {
+      "id": 8,
+      "title": "Ralph Lauren Chaps Harrington Jacket",
+      "brand": "Ralph Lauren",
+      "category": "แจ็คเก็ต",
+      "size": "XL",
+      "cond": "9/10 Tartan Lined",
+      "price": 1490,
+      "sold": false,
+      "stock": 1,
+      "color": "#4a5b44",
+      "image": "",
+      "images": [],
+      "measurements": {
+        "chest": "52\"",
+        "length": "27\"",
+        "shoulder": "22\"",
+        "sleeve": "25.5\""
+      },
+      "defects": "ซับในลายสก็อตต์สมบูรณ์ กระดุมคออยู่ครบ สภาพดีมาก",
+      "createdAt": "2026-10-19T07:27:34.964Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 101,
+      "userId": 2,
+      "items": [
+        {
+          "pid": 5,
+          "title": "Levi's Type 3 Washed Denim Jacket",
+          "qty": 1,
+          "price": 1590
+        }
+      ],
+      "subtotal": 1590,
+      "shipping": 0,
+      "total": 1590,
+      "status": "Shipped",
+      "paymentMethod": "พร้อมเพย์ QR",
+      "paymentType": "promptpay",
+      "slip": null,
+      "address": "99 ถ.สุขุมวิท กรุงเทพฯ 10110",
+      "phone": "081-234-5678",
+      "trackingNo": "TH0149284102",
+      "at": "2026-10-18T07:27:34.964Z",
+      "timeline": [
+        {
+          "status": "Pending",
+          "time": "2026-10-18T07:27:34.964Z",
+          "note": "ทำรายการสั่งซื้อ"
+        },
+        {
+          "status": "Paid",
+          "time": "2026-10-18T08:27:34.964Z",
+          "note": "ตรวจสอบยอดชำระเรียบร้อย"
+        },
+        {
+          "status": "Shipped",
+          "time": "2026-10-19T07:27:34.964Z",
+          "note": "จัดส่งพัสดุแล้ว เลขพัสดุ: TH0149284102"
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "sender": "admin",
+      "senderName": "ONCE Concierge",
+      "text": "สวัสดีครับ ยินดีต้อนรับสู่ ONCE — เนื่องจากสินค้าทุกชิ้นมีเพียง 1 ตัวในโลก หากต้องการสอบถามขนาด สัดส่วน อก/ความยาว หรือขอดูภาพมุมอื่นเพิ่มเติม สามารถส่งข้อความไว้ได้เลยครับ ทีมงานพร้อมให้บริการครับ ✨",
+      "time": "2026-10-20T06:27:34.964Z",
+      "unread": false
+    },
+    {
+      "id": 2,
+      "sender": "customer",
+      "senderName": "ทดสอบแชท",
+      "text": "สวัสดีครับ สอบถามสินค้าหน่อยครับ",
+      "time": "2026-10-20T07:29:00.483Z",
+      "unread": true
+    }
+  ],
+  "cartHolds": {},
+  "nid": {
+    "p": 9,
+    "o": 102,
+    "u": 3,
+    "m": 3
+  }
+}

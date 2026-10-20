@@ -1,0 +1,16 @@
+# Logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Duplicate nested workspace folder
+thrift-store/
